@@ -7,7 +7,7 @@ Arduino recieves input from coin acceptor and initiates a servo rotation of 90 d
 The servo is connected to a star attachment with a metal rod on one of the star points. The metal rod is attached to a Button on a plastic cup dispenser.
 On recieving a 1 Ruppee coin, the machine spits out one cup onto a holder. The machine is tamper proof.
 
-![Diagram](https://i.imgur.com/tkiafNG.png)
+![Diagram](https://i.imgur.com/DlkLw3O.png)
 
 
 ## WaterQualityProject
