@@ -11,8 +11,8 @@ Servo Servo1;
 
 void setup() { 
 
+  delay(1000);
   pinMode (coinPin,INPUT_PULLUP);
-  
   Servo1.attach(servoPin); 
   attachInterrupt(digitalPinToInterrupt(coinPin), coinInserted, FALLING);
    
