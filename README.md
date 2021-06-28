@@ -1,4 +1,4 @@
-# Arduino Projects 
+# Embedded Projects 
 
 ## ServoRun
 
@@ -14,8 +14,7 @@ On recieving a 1 Ruppee coin, the machine spits out one cup onto a holder. The m
 
 ### Output PH and TDS values to a screen
 
-PH and TDS sensor, with output on screen with tvOut library (https://github.com/Avamander/arduino-tvout)
-Drawback: Have to manually take out the PH sensor I utilised, since it is a laborotorial sensor and cannot be submerged 24/7. Can be solved by using a more expensive sensor.
+PH, TDS, Water Level, and temperature sensors attached to an Arduino sending Serial output to a Raspberry Pi Zero which is running a Python program using Tkinter to display the sensor readings. The Arduino and sensor controller boards are housed in a 5'x7'x3' plastic box. The Raspberry Pi is housed in a small plastic box. All wires are soldered and sheathed.
 
-![Diagram](https://i.imgur.com/cTc1cqu.png)
+![Diagram](https://i.imgur.com/5CHoJl5.png)
 
